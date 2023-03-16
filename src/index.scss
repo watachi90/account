@@ -75,6 +75,7 @@ main{
 
 .site-header-desktop{
   background-color: #303030 !important;
+  border-bottom: 4px solid #3fa9f5;
 }
 
 .avatar{
@@ -88,6 +89,60 @@ main{
 
 .nav.main-nav{
   display: none;
+}
+
+.wrapper-footer {
+  background-image: url(bgfoot.png);
+  color: white;
+}
+
+.wrapper-footer a{
+  color: white;
+}
+
+.copyright a{
+  color: white !important;
+}
+
+.wrapper-footer a:hover,
+.copyright a:hover{
+  text-decoration: none;
+}
+
+.wrapper-footer .row{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.wrapper-footer .last-col{
+  border-left: 1px solid white;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.wrapper-footer footer .social{
+  display: flex;
+}
+
+.wrapper-footer footer .social a {
+  color: #00acd7;
+  background-color: white;
+  border-radius: 5px;
+  height: 44px;
+  width: 44px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 9px;
+}
+
+.wrapper-footer footer .social a:hover {
+  color: white;
+  background-color: #00acd7;
+  text-decoration: none;
 }
 
 // TODO: Update edx-bootstrap theme to incorporate these edits.
