@@ -15,22 +15,86 @@ $fa-font-path: "~font-awesome/fonts";
   word-break: break-all !important;
 }
 
-div{
-background-color: #3fa9f5;
+main{
+  background-color: #f2f2f2;
 }
 
+.page__account-settings{
+  max-width: 1200px;
+}
+
+.page__account-settings h1{
+  border-bottom: 2px solid #3fa9f5;
+  padding-bottom: 10px;
+}
+.account-section{
+  border: 2px solid #3fa9f5;
+  padding: 20px;
+  background-color: white;
+}
+
+.page__account-settings .btn-link{
+  background-color: #3fa9f5;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 3px 10px !important;
+  font-size: 0.8rem;
+}
+
+.page__account-settings .btn-link:hover{
+  text-decoration: none;
+  background-color: #80D5FB;
+}
+
+.page__account-settings p button.btn-link{
+  background-color: transparent;
+  border: 1px solid #3fa9f5;
+  color: #3fa9f5;
+}
+
+.page__account-settings h6, 
+.page__account-settings .h6{
+  color: #3fa9f5;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.page__account-settings .jump-nav-sm{
+  padding-top: 0 !important;
+}
+.page__account-settings .jump-nav li{
+  background-color: #B3B3B3;
+  padding: 10px 15px;
+}
+
+.page__account-settings .jump-nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+.site-header-desktop{
+  background-color: #303030 !important;
+}
+
+.avatar{
+  display: none;
+}
+
+.menu-trigger.btn{
+  border: 1px solid #3fa9f5;
+  color: white;
+}
+
+.nav.main-nav{
+  display: none;
+}
 
 // TODO: Update edx-bootstrap theme to incorporate these edits.
 .btn, a.btn {
   text-decoration: none;
   &:hover {
     text-decoration: none;
-  }
-}
-.btn-link {
-  text-decoration: underline;
-  &:hover {
-    text-decoration: underline;
   }
 }
 
