@@ -79,7 +79,7 @@ main{
 }
 
 .avatar{
-  display: none;
+  display: none !important;
 }
 
 .menu-trigger.btn{
@@ -87,12 +87,24 @@ main{
   color: white;
 }
 
+.menu-trigger.btn:hover{
+  background-color: #3fa9f5;
+}
+
+.menu-trigger.btn:focus{
+  outline: none;
+}
+
 .nav.main-nav{
   display: none;
 }
 
 .wrapper-footer {
-  background-image: url(bgfoot.png);
+  background: #285B83;
+    background: -moz-linear-gradient(30deg, #285B83 50%, #2c628a 50%);
+    background: -webkit-linear-gradient(30deg, #285B83 50%,#285B83 50%);
+    background: linear-gradient(30deg, #285B83 50%,#2c628a 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#285B83', endColorstr='#2c628a',GradientType=1 );
   color: white;
 }
 
