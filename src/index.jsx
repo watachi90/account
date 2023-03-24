@@ -1,6 +1,5 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-
 import 'formdata-polyfill';
 import { AppProvider, ErrorPage } from '@edx/frontend-platform/react';
 import {
@@ -39,59 +38,59 @@ subscribe(APP_READY, () => {
             </Switch>
           </main>
           {/* <Footer /> */}
-          <div class="wrapper-footer">
+          <div className="wrapper-footer">
             <footer>
-              <div class="container">
-              <div class="row">
-                <div class="col-sm">
-                  <ul class="list-unstyled">
-                    <li><b>COMPANÍA</b></li>
-                    <li><a href="./about">Acerca de Atenea</a></li>
-                    <li><a href="https://atenea.com.ec">Equipo</a></li>
-                    <li><a href="./contact">Contacto</a></li>
-                  </ul>
-                </div>
-                
-                <div class="col-sm uamx_footer-middle">
-                  <ul class="list-unstyled">
-                    <li><b>PRODUCTOS</b></li>
-                    <li><a href="./">Ecosistema Digital</a></li>
-                    <li><a href="./">Sector Público</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-sm uamx_footer-middle">
-                  <ul class="list-unstyled">
-                    <li><b>LEGAL</b></li>
-                    <li><a href="./privacy">Política de privacidad</a></li>
-                    <li><a href="./tos">Términos del servicio</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-sm last-col">
-                  <div class="footer-about-openedx">
-                    <h5>
-                      <a href="https://app.atenea.digital/">
-                        {/* <img src="account/logo_foot_01.png" alt="Atenea" width="140" /> */}
-                      </a>
-                    </h5>
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm">
+                    <ul className="list-unstyled">
+                      <li><b>COMPANÍA</b></li>
+                      <li><a href="./about">Acerca de Atenea</a></li>
+                      <li><a href="https://atenea.com.ec">Equipo</a></li>
+                      <li><a href="./contact">Contacto</a></li>
+                    </ul>
                   </div>
-                  <p>Aprende en nuestras redes:</p>
-                  <div class="social-wrapper">
-                    
-                    <div class="social">
-                      <a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                      <a href="https://twitter.com/" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                      <a href="https://www.youtube.com/" target="_blank"><span class="fa fa-youtube" aria-hidden="true"></span></a>
-                      <a href="https://www.instagram.com/" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-                      
+
+                  <div className="col-sm uamx_footer-middle">
+                    <ul className="list-unstyled">
+                      <li><b>PRODUCTOS</b></li>
+                      <li><a href="./">Ecosistema Digital</a></li>
+                      <li><a href="./">Sector Público</a></li>
+                    </ul>
+                  </div>
+
+                  <div className="col-sm uamx_footer-middle">
+                    <ul className="list-unstyled">
+                      <li><b>LEGAL</b></li>
+                      <li><a href="./privacy">Política de privacidad</a></li>
+                      <li><a href="./tos">Términos del servicio</a></li>
+                    </ul>
+                  </div>
+
+                  <div className="col-sm last-col">
+                    <div className="footer-about-openedx">
+                      <h5>
+                        <a href="https://app.atenea.digital/">
+                          {/* <img src="account/logo_foot_01.png" alt="Atenea" width="140" /> */}
+                        </a>
+                      </h5>
+                    </div>
+                    <p>Aprende en nuestras redes:</p>
+                    <div className="social-wrapper">
+
+                      <div className="social">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><span className="fa fa-facebook" aria-hidden="true" /></a>
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer"><span className="fa fa-twitter" aria-hidden="true" /></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><span className="fa fa-youtube" aria-hidden="true" /></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><span className="fa fa-instagram" aria-hidden="true" /></a>
+
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              </div>
-              
-              <p class="copyright small">© 2023 <a href="https://app.atenea.digital/">Atenea Educación</a></p>
+
+              <p className="copyright small">© 2023 <a href="https://app.atenea.digital/">Atenea Educación</a></p>
             </footer>
           </div>
         </div>
